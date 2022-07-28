@@ -37,7 +37,7 @@ public class GuiButtonClient extends GuiButton
             }
             
             GlStateManager.color(1, 1, 1, 1);
-            this.drawCenteredString(mc.fontRendererObj, buttonString, xPosition, yPosition, -1);
+            this.drawCenteredString(mc.fontRendererObj, buttonString, this.xPosition + this.width / 2, this.yPosition + (this.height - 8) / 2, -1);
             
             
             
