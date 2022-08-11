@@ -75,7 +75,7 @@ public class HUDManager {
 		ScreenPosition pos = renderer.load();
 		
 		if(pos == null ) {
-			pos = ScreenPosition.fromRelativePosition(3, 3);
+			pos = ScreenPosition.fromRelativePosition(0.5, 0.5);
 		}
 		
 		renderer.render(pos);
